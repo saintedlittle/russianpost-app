@@ -1,0 +1,40 @@
+default:
+  tags:
+    - inet-docker
+  image: docker-registry.tools.russianpost.ru:5024/registry-mobile-app/android-base:v1.2-sdk31
+
+stages:
+  - mixed
+
+variables:
+  GRADLE_OPTS: "-Dorg.gradle.daemon=false"
+  GIT_SUBMODULE_STRATEGY: normal
+
+
+#Пайплайн регулярных сборок
+DebugBuild:
+  stage: mixed
+
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+      when: always
+    - when: manual
+
+  script:
+    - ./gradlew test assembleDebug
+  after_script:
+    - ls -lh ./app/build/outputs/apk/
+  artifacts:
+    paths:
+      - ./app/build/outputs/apk/
+
+# Только тесты на рабочей ветке
+Tests:
+  stage: mixed
+
+  only:
+    refs:
+      - /develop/
+
+  script:
+    - ./gradlew test

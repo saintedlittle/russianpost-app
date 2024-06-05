@@ -1,0 +1,4 @@
+[submodule "ds"]
+	path = ds
+	url = ../../mobile-application/design-system-android-compose.git
+    branch = dev

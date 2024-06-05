@@ -1,0 +1,216 @@
+<resources>
+    <string name="app_name">Почта Подписка</string>
+    <string name="text_catalog">Каталог</string>
+    <string name="image_filter">Иконка фильтра</string>
+    <string name="filter_text_sort">Сортировка</string>
+    <string name="filter_text_filter">Фильтры</string>
+    <string name="filter_text_by_alphabet">По алфавиту</string>
+    <string name="filter_text_by_price">По цене</string>
+    <string name="filter_text_by_popularity">По популярности</string>
+    <string name="filter_text_newest">По новизне</string>
+    <string name="filter_text_slider_from">От </string>
+    <string name="filter_text_slider_to">До </string>
+    <string name="filter_text_theme">Тематика</string>
+    <string name="filter_text_age_category">Возрастная категория</string>
+    <string name="filter_text_by_geography">По географии</string>
+    <string name="filter_text_geo_piter">Питерские издания</string>
+    <string name="filter_text_geo_region">Районные издания</string>
+    <string name="filter_text_geo_moscow">Московские издания</string>
+    <string name="filter_text_slider_price">Границы цен на подписку</string>
+    <string name="filter_text_publication_type">Тип издания</string>
+    <string name="filter_text_newspaper">Газета</string>
+    <string name="filter_text_magazine">Журнал</string>
+    <string name="catalog_text_clickable_filter_image">Перейти в фильтр</string>
+    <string name="filter_text_clickable_age">Открыть список возрастов</string>
+    <string name="filter_text_all_types">Все</string>
+    <string name="filter_text_clickable_themes">Открыть список тематик изданий</string>
+    <string name="filter_text_clickable_geography">Открыть список с географией изданий</string>
+    <string name="detailed_activity">Перейти в детализацию информации по номеру</string>
+    <string name="favorite_button">Добавить в избранное</string>
+    <string name="text_publications">Издания</string>
+    <string name="text_editions">Выпуски</string>
+    <string name="text_articles">Статьи</string>
+    <string name="segment_publication">изданиям</string>
+    <string name="detailed_screen_description_title">Описание</string>
+    <string name="detailed_screen_tags_title">Тематика издания</string>
+    <string name="detailed_screen_description_button">Читать далее</string>
+    <string name="detailed_screen_description_button_content_description">Кнопка раскрытия информации</string>
+    <string name="segment_edition">выпускам</string>
+    <string name="segment_article">статьям</string>
+    <string name="text_subscribe">Подписаться</string>
+    <string name="text_read">Читать</string>
+    <string name="text_renew_subscribe">Продлить подписку</string>
+    <string name="text_search">Поиск по </string>
+    <string name="text_catalog_search">Поиск по каталогу</string>
+    <string name="text_subscribe_to_read">Подпишитесь, чтобы прочитать номер</string>
+    <string name="text_subscriptions">Мои подписки</string>
+    <string name="search_editions">Поиск по выпускам</string>
+    <string name="text_active_subs">Активные</string>
+    <string name="text_expired_subs">Истекшие</string>
+    <string name="text_resubscribe">Продлить подписку</string>
+    <string name="subscription_campaign_message">Если кнопка неактивна, значит Вы подписаны на максимальный срок подписки, подписная кампания на следующее полугодие ещё закрыта</string>
+    <string name="text_filter_federal">Федеральные</string>
+    <string name="text_filter_regional">Региональные</string>
+    <string name="text_filter_geography">По географии</string>
+    <string name="text_filter_district">Районные</string>
+    <string name="search_region">Поиск по регионам</string>
+    <string name="text_filter_reset_button">Сбросить</string>
+    <string name="button_apply">Применить</string>
+    <string name="text_filter_theme">Тематика</string>
+    <string name="text_search_theme">Поиск по тематике</string>
+    <string name="segment_all_edition">всем выпускам</string>
+    <string name="segment_stored_edition">скаченным выпускам</string>
+    <string name="text_all_edition">все выпуски</string>
+    <string name="drop_down_menu">выпадающее меню</string>
+    <string name="drop_down_menu_option_one">Добавить в избранное</string>
+    <string name="drop_down_menu_option_two">Удалить из избранного</string>
+    <string name="drop_down_menu_option_three">Удалить файл</string>
+    <string name="alert_confirm_button">Удалить</string>
+    <string name="alert_cancel_button">Отменить</string>
+    <string name="chip_highlighted_image">картинка для выделенного чипа.</string>
+    <string name="subscriptions_title">Мои подписки</string>
+    <string name="subscription_chip_one">Все</string>
+    <string name="subscription_chip_two">Активные</string>
+    <string name="subscription_chip_three">Истекшие</string>
+    <string name="subscriptions_active">Активные подписки</string>
+    <string name="subscriptions_expended">Истекшие подписки</string>
+    <string name="alert_label">Хотите удалить выпуск?</string>
+    <string name="alert_text_part_one">Вы точно хотите удалить выпуск? У Вас осталось</string>
+    <string name="alert_text_part_two">доступных скачиваний.</string>
+    <string name="download_error_confirm_button">Понятно</string>
+    <string name="download_error_title">Не удалось загрузить издание.</string>
+    <string name="download_error_text">Отсутствует подключение к интернету. Попробуйте загрузить позже.</string>
+    <string name="text_stored_edition">загруженные выпуски</string>
+    <string name="recent_editions">Читаю сейчас</string>
+    <string name="rest_editions">Выпуски</string>
+    <string name="detailed_screen_age_category">Возрастная категория</string>
+    <string name="bookmark_page">Страница </string>
+    <string name="bookmark_remove">Удалить</string>
+    <string name="image_download_error">Ошибка при загрузке</string>
+    <string name="btn_authenticate">Аутентифицироваться</string>
+    <string name="btn_logout">Выйти из аккаунта</string>
+    <string name="wrong_login_or_password_dialog">Неправильный пароль или логин.</string>
+    <string name="accept_btn_text">Принять.</string>
+    <string name="dismiss_btn_text">Отклонить.</string>
+    <string name="default_username">Войти в аккаунт</string>
+    <string name="password_hint">пароль</string>
+    <string name="username_hint">имя пользователя</string>
+    <string name="when_subscription_error">Для доступа к подпискам необходимо авторизоваться</string>
+    <string name="when_favorite_error">Для доступа к избранному необходимо авторизоваться</string>
+    <string name="when_editions_error">Для доступа к выпускам необходимо авторизоваться</string>
+    <string name="authenticate_btn">Войти в аккаунт</string>
+    <string name="timestamp_text">Дата сборки: </string>
+    <string name="downloaded_icon">Значок загруженного выпуска</string>
+    <string name="channel_name">download progress notification channel</string>
+    <string name="channel_description">канал, чтобы отражать прогресс загрузки</string>
+    <string name="notification_title">Загрузка файлов</string>
+    <string name="download_is_over">Загрузка завершена</string>
+    <string name="download_is_going">Идет загрузка</string>
+    <string name="unknown_error">Неизвестная ошибка</string>
+    <string name="no_matching_results_error">Нет подходящих результатов.</string>
+    <string name="no_rights_error">Нет прав для соотвествующего запроса.</string>
+    <string name="no_connection_error">Нет соединения сети или не подключен ВПН.</string>
+    <string name="message_server_error">Ошибка подключения к сети.</string>
+    <string name="text_bookmarks_didnt_exist">У вас нет ни одной закладки.</string>
+    <string name="text_go_back">Назад</string>
+    <string name="prolongation_btn_text_when_period_is_over">Обновить подписку</string>
+    <string name="prolongation_btn_text_when_period_is_not_over">Продлить подписку</string>
+    <string name="button_search">Поиск</string>
+    <string name="text_subscribe_is_expired">Подписка на издание истекла</string>
+    <string name="icon_calendar">Иконка календарь</string>
+    <string name="icon_download">Иконка загрузить</string>
+    <string name="text_release_year">%1$d ГОД</string>
+    <string name="text_expiration_date">Подписка на издание истекает %1$s</string>
+    <string name="arrow_btn_description">Кнопка для возвращения на предыдущий экран.</string>
+    <string name="text_price">от %1$s ₽</string>
+    <string name="icon_sort">Иконка сортировки</string>
+    <string name="icon_filter">Иконка фильтра</string>
+    <string name="icon_close_filter">Закрыть фильтр</string>
+    <string name="button_close">Закрыть</string>
+    <string name="button_show">Показать</string>
+    <string name="detailed_screen_hide_description">Скрыть</string>
+    <string name="detailed_screed_specification">Характеристики</string>
+    <string name="detailed_screen_subscritpion_details">Детали подписки</string>
+    <string name="detailed_screen_subscription_index">Подписной индекс</string>
+    <string name="detailed_screen_publication_type">Тип издания</string>
+    <string name="detailed_screen_registration_certificate">Свидетельство о регистрации</string>
+    <string name="detailed_screen_publisher">Издательство/ Распространитель</string>
+    <string name="detailed_screen_publisher_address">Адрес издателя</string>
+    <string name="detailed_screen_publication_region">Регион издания</string>
+    <string name="detailed_screen_periodicity">Периодичность</string>
+    <string name="detailed_screen_pages_number">Количество страниц</string>
+    <string name="detailed_screen_subscribe_button">Перейти к подписке</string>
+    <string name="text_settings">Настройки</string>
+    <string name="text_notifications">Уведомления</string>
+    <string name="text_push_notifications">Push-уведомления</string>
+    <string name="icon_arrow_right">Стрелка вправо</string>
+    <string name="text_email_notifications">На электронную почту</string>
+    <string name="text_region_settings">Региональные настройки</string>
+    <string name="text_home_region">Ваш регион</string>
+    <string name="text_home_region_priority">Приоритет домашнего региона</string>
+    <string name="text_region_priority_annotation">При сортировке в начале каталога будут издания вашего региона, после все остальные</string>
+    <string name="text_theming">Оформление</string>
+    <string name="text_theme_type">Цветовая тема</string>
+    <string name="text_system_settings">Системные настройки</string>
+    <string name="text_system_settings_annotation">Нажмите для перехода в системные настройки</string>
+    <string name="text_email_notifications_header">Email-уведомления</string>
+    <string name="text_notifications_mode">Режимы уведомлений</string>
+    <string name="text_all_notifications_annotation">Уведомлять о новых изданиях в каталоге, а так же о новых выпусках ваших подписок</string>
+    <string name="text_releases_notifications_annotation">Уведомлять только о новых выпусках в ваших подписках</string>
+    <string name="text_disable_notifications">Отключить уведомления</string>
+    <string name="text_push_notifications_header">Push-уведомления</string>
+    <string name="text_theme_mode">Режимы оформления</string>
+    <string name="text_light_theme">Всегда использовать светлое оформление</string>
+    <string name="text_dark_theme">Всегда использовать тёмное оформление</string>
+    <string name="text_battery_safe_annotation">Если экран вашего устройства позволяет сэкономить заряд, приложение переключится на тёмное оформление, когда на вашем устройстве будет включен режим энергосбережения</string>
+    <string name="when_favorites_error">Для просмотра избранного пожалуйста авторизуйтесь</string>
+    <string name="search_screen_placeholder">Найти %1$s </string>
+    <plurals name="button_publications_num">
+        <item quantity="one">%d издание</item>
+        <item quantity="few">%d издания</item>
+        <item quantity="many">%d изданий</item>
+    </plurals>
+    <plurals name="text_price">
+        <item quantity="one">От %d рубля</item>
+        <item quantity="few">От %d рублей</item>
+        <item quantity="many">От %d рублей</item>
+    </plurals>
+    <string-array name="months">
+        <item>январь</item>
+        <item>февраль</item>
+        <item>март</item>
+        <item>апрель</item>
+        <item>май</item>
+        <item>июнь</item>
+        <item>июль</item>
+        <item>август</item>
+        <item>сентябрь</item>
+        <item>октябрь</item>
+        <item>ноябрь</item>
+        <item>декабрь</item>
+    </string-array>
+    <string-array name="age_restrictions">
+        <item>нет возрастных ограничений</item>
+        <item>0+</item>
+        <item>6+</item>
+        <item>12+</item>
+        <item>16+</item>
+        <item>18+</item>
+        <item>любой возраст</item>
+    </string-array>
+    <string-array name="publication_type">
+        <item>Журнал</item>
+        <item>Газета</item>
+        <item>Неизвестный тип издания</item>
+    </string-array>
+    <string-array name="notifications_mode">
+        <item>Все уведомления</item>
+        <item>Новые выпуски</item>
+        <item>Отключено</item>
+    </string-array>
+    <string-array name="themes_mode">
+        <item>Светлая</item>
+        <item>Темная</item>
+        <item>Экономия заряда</item>
+    </string-array>
+</resources>
